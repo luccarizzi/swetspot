@@ -1,5 +1,4 @@
 
-
 /* Styles */
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
@@ -8,13 +7,17 @@
 }
 
 /* Sizes */
-.f-size-navigation {
+.f-size-nav {
   font-size: 24px;
+}
+
+.f-size-modal {
+  font-size: 32px;
 }
 
 /* Color */
 .red-1 {
-  color: #D50023;
+  color: #d50023;
 }
 
 /* Letter Spacing */
@@ -22,27 +25,30 @@
   letter-spacing: 0.1rem;
 }
 
-/* Burger */
-.f-size-burger {
+/* icon */
+.f-size-icon {
   font-size: 24px;
 }
 
 /* Media Queries */
-
 @media screen and (min-width: 576px) {
-  .f-size-burger {
+  .f-size-icon {
+    font-size: 42px;
+  }
+
+  .f-size-modal {
     font-size: 42px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .f-size-navigation {
+  .f-size-nav {
     font-size: 24px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .f-size-navigation {
+  .f-size-nav {
     font-size: 32px;
   }
 }

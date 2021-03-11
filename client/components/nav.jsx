@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Navigation() {
+function Nav() {
   return (
-    <ul className='nav f-style-teko f-size-navigation red-1 f-letter-spacing-1'>
+    <ul className='nav f-style-teko f-size-nav f-letter-spacing-1 red-1'>
       <li className='nav-item'>
         <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Services</a>
       </li>
@@ -16,16 +16,16 @@ function Navigation() {
         <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Contact Us</a>
       </li>
       <li className='nav-item'>
-        <a target='_blank' className='nav-link active px-2 px-lg-4 py-1 text-reset' href='https://www.tasksuite.com/' rel="noreferrer">CRM</a>
+        <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer' className='nav-link active px-2 px-lg-4 py-1 text-reset'>CRM</a>
       </li>
       <li className='nav-item'>
-        <a target='_blank' className='nav-link active px-2 px-lg-4 py-1 text-reset' href='https://www.taskloan.com/' rel="noreferrer">Leading Software</a>
+        <a target='_blank' href='https://www.taskloan.com/' rel='noreferrer' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Leading Software</a>
       </li>
       <li className='nav-item'>
         <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Partners</a>
       </li>
     </ul>
-  )
+  );
 }
 
-export default Navigation;
+export default Nav;

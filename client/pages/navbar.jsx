@@ -2,13 +2,13 @@ import React from 'react';
 import logo from '../../server/public/src/logo.png';
 import MediaQuery from 'react-responsive';
 import Burger from '../components/burger';
-import Navigation from '../components/navigation';
+import Nav from '../components/nav';
 
 export default class Navbar extends React.Component {
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-  }
+  // }
 
   render() {
     return (
@@ -24,9 +24,9 @@ export default class Navbar extends React.Component {
           </div>
           <div className='col-9 col-md-10 col-lg-11 d-flex justify-content-end align-items-center'>
               <MediaQuery minDeviceWidth={768}>
-                {(matches) =>
+                {matches =>
                   matches
-                    ? <Navigation />
+                    ? <Nav />
                     : <Burger />
                 }
               </MediaQuery>
