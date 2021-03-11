@@ -1,3 +1,4 @@
+
 .opacity-9 {
   opacity: 0.9;
 }
@@ -15,4 +16,15 @@
   to {
     transform: translate(0%);
   }
+}
+
+.border-gradient {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, #b4001b, #d50023);
+}
+
+.banner {
+  background: linear-gradient(350deg, #8e0002, #f00029);
 }
