@@ -20,13 +20,13 @@ export default class Navbar extends React.Component {
                 alt='swētSPOT logo.'></img>
             </a>
           </div>
-          <div>
+          <div className='col-9 col-md-10 col-lg-11 d-flex justify-content-end'>
             <div>
-              <MediaQuery minDeviceWidth={500}>
+              <MediaQuery minDeviceWidth={768}>
                 {(matches) =>
                   matches
-                    ? <p>You are retina</p>
-                    : <p>You are not retina</p>
+                    ? <nav></nav>
+                    : <i className="fas fa-bars"></i>
                 }
               </MediaQuery>
             </div>
