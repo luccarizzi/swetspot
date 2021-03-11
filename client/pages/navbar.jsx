@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../../server/public/src/logo.png';
 import MediaQuery from 'react-responsive';
-import BurgerIcon from '../components/burger-icon';
+import Burger from '../components/burger';
+import Navigation from '../components/navigation';
 
 export default class Navbar extends React.Component {
   constructor(props) {
@@ -25,8 +26,8 @@ export default class Navbar extends React.Component {
               <MediaQuery minDeviceWidth={768}>
                 {(matches) =>
                   matches
-                    ? <nav></nav>
-                    :<BurgerIcon />
+                    ? <Navigation />
+                    : <Burger />
                 }
               </MediaQuery>
           </div>

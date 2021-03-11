@@ -1,0 +1,48 @@
+
+
+/* Styles */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.f-style-teko {
+  font-family: 'Teko', sans-serif;
+}
+
+/* Sizes */
+.f-size-navigation {
+  font-size: 24px;
+}
+
+/* Color */
+.red-1 {
+  color: #D50023;
+}
+
+/* Letter Spacing */
+.f-letter-spacing-1 {
+  letter-spacing: 0.1rem;
+}
+
+/* Burger */
+.f-size-burger {
+  font-size: 24px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 576px) {
+  .f-size-burger {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .f-size-navigation {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .f-size-navigation {
+    font-size: 32px;
+  }
+}

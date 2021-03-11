@@ -1,9 +1,0 @@
-.burger-icon-size {
-  font-size: 24px;
-}
-
-@media screen and (min-width: 540px) {
-  .burger-icon-size {
-    font-size: 42px;
-  }
-}
