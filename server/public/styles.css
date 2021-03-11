@@ -1,4 +1,5 @@
 
+/* Modal */
 .opacity-9 {
   opacity: 0.9;
 }
@@ -18,13 +19,15 @@
   }
 }
 
-.border-gradient {
-  border-bottom: 5px solid;
-  border-image-slice: 1;
-  border-width: 3px;
-  border-image-source: linear-gradient(to left, #b4001b, #d50023);
-}
-
+/* Banner */
 .banner {
   background: linear-gradient(350deg, #8e0002, #f00029);
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  border: 1px solid #fff;
+  margin: 10px 0;
+  padding: 10px 20px;
 }
