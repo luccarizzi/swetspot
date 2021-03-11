@@ -4,35 +4,30 @@ import MediaQuery from 'react-responsive';
 import Burger from '../components/burger';
 import Nav from '../components/nav';
 
-export default class Navbar extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  // }
-
-  render() {
-    return (
-      <div className='container-fluid'>
-        <div className='row'>
-          <div className='col-3 col-md-2 col-lg-1'>
-            <a href='#'>
-              <img
-                className='img-fluid'
-                src={logo}
-                alt='swētSPOT logo.'></img>
-            </a>
-          </div>
-          <div className='col-9 col-md-10 col-lg-11 d-flex justify-content-end align-items-center'>
-              <MediaQuery minDeviceWidth={768}>
-                {matches =>
-                  matches
-                    ? <Nav />
-                    : <Burger />
-                }
-              </MediaQuery>
-          </div>
+function Navbar() {
+  return (
+    <div className='container-fluid'>
+      <div className='row'>
+        <div className='col-3 col-md-2 col-lg-1 p-0'>
+          <a href='#'>
+            <img
+              className='img-fluid'
+              src={logo}
+              alt='swētSPOT logo.'></img>
+          </a>
+        </div>
+        <div className='col-9 col-md-10 col-lg-11 d-flex justify-content-end align-items-center'>
+            <MediaQuery minDeviceWidth={768}>
+              {matches =>
+                matches
+                  ? <Nav />
+                  : <Burger />
+              }
+            </MediaQuery>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default Navbar;

@@ -23,14 +23,21 @@ export default class Burger extends React.Component {
   }
 
   render() {
+    window.addEventListener('resize', () => {
+      const { modal } = this.state;
+      if (modal) {
+        this.closeModal();
+      }
+    });
+
     const { modal } = this.state;
     let navModal;
     if (modal) {
       navModal =
-        <div className='position-absolute top-0 end-0 w-100 vh-100 bg-dark opacity-9'>
+        <div className='position-absolute top-0 end-0 w-100 vh-100 bg-dark opacity-9 slide'>
           <div className='container-fluid text-white'>
             <div className='row py-4'>
-            <div onClick={this.closeModal} className='w-auto'>
+              <div onClick={this.closeModal} className='w-auto'>
                 <i className='fas fa-times f-size-icon'></i>
               </div>
             </div>
