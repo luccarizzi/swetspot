@@ -11,7 +11,7 @@ function Banner() {
           </p>
           <div className='my-4'>
             <a href='#' className='f-style-confortaa text-white text-decoration-none h3'>
-              <div className='button'>
+              <div className='button b-white'>
                 Get Quote
               </div>
             </a>

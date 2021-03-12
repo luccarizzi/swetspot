@@ -59,6 +59,15 @@ function Services() {
           </div>
         </div>
       </div>
+      <div className='row text-center'>
+        <div className='my-4'>
+          <a href='#' className='f-style-confortaa red-2 text-decoration-none h3'>
+            <div className='button b-red'>
+              More
+              </div>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
