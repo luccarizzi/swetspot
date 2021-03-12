@@ -31,3 +31,14 @@
   margin: 10px 0;
   padding: 10px 20px;
 }
+
+/* Card Image */
+.card-image {
+  object-fit: cover;
+  height: 250px;
+}
+
+/* Max Width */
+.mw-400 {
+  max-width: 400px !important;
+}
