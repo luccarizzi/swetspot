@@ -20,7 +20,7 @@ function Services() {
               alt=''></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>IT Support</h4>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 Our IT company is available to consult with you or your staff when problems arise with your information technology software.
                 These professional services can be either remote or on-site assistance.
               </p>
@@ -35,7 +35,7 @@ function Services() {
               alt=''></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>Network Support & Maintenance</h4>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 We can set up and maintain your business&apos;s network or help troubleshoot and maintain your existing system and provide professional services in all areas,
                 from hardware to information technology software.
               </p>
@@ -50,7 +50,7 @@ function Services() {
               alt=''></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>Cloud Services & Data Management</h4>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 Our professional services team will work with you to establish the appropriate cloud size and available resources for your business.
                 We are a one-stop-shop IT company that offers custom information technology software.
               </p>
