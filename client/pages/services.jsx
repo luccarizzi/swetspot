@@ -63,7 +63,7 @@ function Services() {
           <a href='#' className='f-style-confortaa red-2 text-decoration-none h3'>
             <div className='button b-red'>
               More Services
-              </div>
+            </div>
           </a>
         </div>
       </div>
