@@ -1,15 +1,8 @@
 import React from 'react';
+
 import cardImage1 from '../../server/public/src/card-1.jpg';
 import cardImage2 from '../../server/public/src/card-2.jpg';
 import cardImage3 from '../../server/public/src/card-3.jpg';
-import cardImage4 from '../../server/public/src/card-4.jpg';
-import cardImage5 from '../../server/public/src/card-5.jpg';
-import cardImage6 from '../../server/public/src/card-6.jpg';
-import cardImage7 from '../../server/public/src/card-7.jpg';
-import cardImage8 from '../../server/public/src/card-8.jpg';
-import cardImage9 from '../../server/public/src/card-9.jpg';
-import cardImage10 from '../../server/public/src/card-10.jpg';
-
 
 function Services() {
   return (
@@ -19,15 +12,15 @@ function Services() {
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'>Services</h1>
         </div>
       </div>
-      <div className='row justify-content-center justify-content-xl-evenly'>
+      <div className='row justify-content-center justify-content-xl-evenly f-style-confortaa'>
         <div className='col-12 col-md-6 mb-4 mw-400'>
           <div className='card'>
             <img
               className='card-img-top card-image'
-              src={cardImage2}
+              src={cardImage1}
               alt=''></img>
             <div className='card-body'>
-              <h5 className='card-title'>IT Support</h5>
+              <h4 className='card-title f-style-kanit'>IT Support</h4>
               <p className='card-text'>
                 Our IT company is available to consult with you or your staff when problems arise with your information technology software.
                 These professional services can be either remote or on-site assistance.
@@ -39,10 +32,10 @@ function Services() {
           <div className='card'>
             <img
               className='card-img-top card-image'
-              src={cardImage6}
+              src={cardImage2}
               alt=''></img>
             <div className='card-body'>
-              <h5 className='card-title'>Network Support & Maintenance</h5>
+              <h4 className='card-title f-style-kanit'>Network Support & Maintenance</h4>
               <p className='card-text'>
                 We can set up and maintain your business&apos;s network or help troubleshoot and maintain your existing system and provide professional services in all areas,
                 from hardware to information technology software.
@@ -54,10 +47,10 @@ function Services() {
           <div className='card'>
             <img
               className='card-img-top card-image'
-              src={cardImage8}
+              src={cardImage3}
               alt=''></img>
             <div className='card-body'>
-              <h5 className='card-title'>Cloud Services & Data Management</h5>
+              <h4 className='card-title f-style-kanit'>Cloud Services & Data Management</h4>
               <p className='card-text'>
                 Our professional services team will work with you to establish the appropriate cloud size and available resources for your business.
                 We are a one-stop-shop IT company that offers custom information technology software.
