@@ -13,7 +13,7 @@ function AboutUs() {
           <div className='card border-0'>
             <div className='card-body text-center'>
               <h3 className='card-title f-style-kanit'>Experience swētSPOT</h3>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 swētSPOT is an 80% women-owned, majority-minority, and 20% disabled veteran organization that focuses on the digital transformation of business—providing one-stop shopping for all your technology needs.
                 We were born out of the necessity of a woman’s touch in science, technology, engineering, and mathematics with the strategic influence of the military.
               </p>
@@ -24,7 +24,7 @@ function AboutUs() {
           <div className='card border-0'>
             <div className='card-body text-center'>
               <h3 className='card-title f-style-kanit'>High ROI</h3>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 Many companies find that constant maintenance eats into their budget for new technology.
                 By outsourcing your IT management to us, you can focus on what you do best--running your business.
               </p>
@@ -35,7 +35,7 @@ function AboutUs() {
           <div className='card border-0'>
             <div className='card-body text-center'>
               <h3 className='card-title f-style-kanit'>Satisfaction Guaranteed</h3>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 That&apos;s why our goal is to provide an experience that is tailored to your company&apos;s needs.
                 No matter the budget, we pride ourselves on providing professional customer service.
               </p>
@@ -51,7 +51,7 @@ function AboutUs() {
           <div className='card border-0'>
             <div className='card-body text-center'>
               <h3 className='card-title f-style-kanit'>Our Founders</h3>
-              <p className='card-text'>
+              <p className='card-text text-justify'>
                 A US Military Veterans and a seasoned  S.T.E.M female have set out to provide the best professional services and products to our clients with honesty, integrity, accountability, and tenacity.
                 And together, we founded swētSPOT. We will keep you happy and productive without sweat!
               </p>

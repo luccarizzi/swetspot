@@ -49,3 +49,20 @@
 .mw-400 {
   max-width: 400px !important;
 }
+
+/* Form */
+.input-box {
+  border: none;
+  background-color: inherit;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Positioning */
+.top-4 {
+  top: 4px;
+}
