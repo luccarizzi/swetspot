@@ -1,5 +1,4 @@
 import React from 'react';
-
 import cardImage1 from '../../server/public/src/card-1.jpg';
 import cardImage2 from '../../server/public/src/card-2.jpg';
 import cardImage3 from '../../server/public/src/card-3.jpg';
@@ -13,7 +12,7 @@ function Services() {
         </div>
       </div>
       <div className='row justify-content-center justify-content-xl-evenly f-style-confortaa'>
-        <div className='col-12 col-md-6 mb-4 mw-400'>
+        <div className='col-12 col-md-6 my-2 mw-400'>
           <div className='card'>
             <img
               className='card-img-top card-image'
@@ -28,7 +27,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className='col-12 col-md-6 mb-4 mw-400'>
+        <div className='col-12 col-md-6 my-2 mw-400'>
           <div className='card'>
             <img
               className='card-img-top card-image'
@@ -43,7 +42,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className='col-12 mb-4 mw-400'>
+        <div className='col-12 my-2 mw-400'>
           <div className='card'>
             <img
               className='card-img-top card-image'
@@ -60,10 +59,10 @@ function Services() {
         </div>
       </div>
       <div className='row text-center'>
-        <div className='my-4'>
+        <div className='my-lg-4'>
           <a href='#' className='f-style-confortaa red-2 text-decoration-none h3'>
             <div className='button b-red'>
-              More
+              More Services
               </div>
           </a>
         </div>
