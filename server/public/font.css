@@ -53,9 +53,13 @@
   text-align: justify;
 }
 
-/* icon */
+/* Icon */
 .f-size-icon {
   font-size: 24px;
+}
+
+.facebook-icon {
+  color: #4967aa;
 }
 
 /* Shadow */

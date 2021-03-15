@@ -5,9 +5,18 @@ function ContactUs() {
     <div className='container-fluid bg-red text-white py-4'>
       <div className='row justify-content-center'>
         <div className='col-12 text-center'>
-          <h1 className='f-style-kanit display-1 my-4 text-shadow'>Contact Us</h1>
+          <h1 className='f-style-kanit display-1 my-4 text-shadow'>Social</h1>
+        </div>
+        <div className='col-12 text-center'>
+          <a href=''>
+            <i className='fab fa-facebook display-2 text-white'></i>
+          </a>
+        </div>
+        <div className='col-12 text-center mt-md-5'>
+          <h1 className='f-style-kanit display-1 mt-4 mb-2 text-shadow'>Contact Us</h1>
         </div>
         <form className='col-10 col-sm-8 col-md-6 col-lg-4 f-style-confortaa'>
+          <p className='text-center f-style-confortaa h6'>Request for Quotation</p>
           <div className='g-2 border-bottom border-white my-4'>
             <label
               htmlFor='name'
@@ -49,10 +58,21 @@ function ContactUs() {
               htmlFor='sign-up'
               className='ms-2'>Sign up for our email list for updates, promotions, and more.</label>
           </div>
-          <div className='g-2 my-4'>
+          <div className='g-2 my-4 d-flex justify-content-center'>
             <input
               type='submit'
-              className=''></input>
+              className='button b-white h3 text-white'></input>
+          </div>
+          <div className='col-12 text-center'>
+            <p className='text-center f-style-confortaa h6 lh-base fw-light my-4'>
+              Let us tailor a service package that meets your needs.
+              Tell us a little about your business, and we will get back to you with some suggestions.
+            </p>
+            <h3 className='mt-4'>Hours</h3>
+            <p className='text-center f-style-confortaa h6 lh-base fw-light'>
+              Monday - Friday: 9am - 5pm<br></br>
+              Saturday - Sunday: Closed
+            </p>
           </div>
         </form>
       </div>
