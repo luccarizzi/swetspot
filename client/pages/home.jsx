@@ -13,15 +13,13 @@ export default class Home extends React.Component {
     return (
       <>
         <Navbar />
-        <div className='position-relative'>
-          <Banner />
-          <Services />
-          <Blog />
-          <AboutUs />
-          <ContactUs />
-          <Partners />
-          <Footer />
-        </div>
+        <Banner />
+        <Services />
+        <Blog />
+        <AboutUs />
+        <ContactUs />
+        <Partners />
+        <Footer />
       </>
     );
   }
