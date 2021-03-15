@@ -45,7 +45,7 @@ function AboutUs() {
       </div>
       <div className='row f-style-confortaa justify-content-center'>
         <div className='col-12 text-center'>
-          <h1 className='f-style-kanit mt-4 red-2 text-shadow f-style-confortaa fw-bolder'>meet the meam</h1>
+          <h1 className='f-style-kanit mt-4 red-2 text-shadow f-style-confortaa fw-bolder'>meet the team</h1>
         </div>
         <div className='col-12 col-lg-10'>
           <div className='card border-0'>

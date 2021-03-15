@@ -59,7 +59,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className='row text-center'>
+      <div className='row mt-2'>
         <Dropdown />
       </div>
     </div>
