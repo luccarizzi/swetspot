@@ -1,0 +1,104 @@
+
+/* Modal */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+.slide {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate(100%);
+  }
+
+  to {
+    transform: translate(0%);
+  }
+}
+
+/* Banner */
+.bg-red {
+  background: linear-gradient(350deg, #8e0002, #f00029);
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.b-white {
+  border: 1px solid #fff;
+}
+
+.b-red {
+  border: 1px solid #b4001b;
+}
+
+/* Card Image */
+.card-image {
+  object-fit: cover;
+  height: 250px;
+}
+
+/* Sizing */
+.mw-400 {
+  max-width: 400px !important;
+}
+
+/* Form */
+.input-box {
+  border: none;
+  background-color: inherit;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Positioning */
+.top-4 {
+  top: 4px;
+}
+
+/* HTML Scrolling */
+html {
+  scroll-padding-top: 3.5rem;
+}
+
+@media screen and (min-width: 470px) {
+  html {
+    scroll-padding-top: 5rem;
+  }
+
+  @media screen and (min-width: 576px) {
+    html {
+      scroll-padding-top: 6.5rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    html {
+      scroll-padding-top: 5rem;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    html {
+      scroll-padding-top: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    html {
+      scroll-padding-top: 5rem;
+    }
+  }
+}
