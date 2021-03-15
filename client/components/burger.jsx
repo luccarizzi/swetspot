@@ -44,25 +44,25 @@ export default class Burger extends React.Component {
             <div className='ps-4 f-style-teko f-size-modal f-letter-spacing-1'>
               <div className='row'>
                 <a
-                  href='#'
+                  href='#services'
                   onClick={this.closeModal}
                   className='text-decoration-none text-reset w-auto'>Services</a>
               </div>
               <div className='row'>
                 <a
-                  href='#'
+                  href='#blog'
                   onClick={this.closeModal}
                   className='text-decoration-none text-reset w-auto'>Blog</a>
               </div>
               <div className='row'>
                 <a
-                  href='#'
+                  href='#about-us'
                   onClick={this.closeModal}
                   className='text-decoration-none text-reset w-auto'>About Us</a>
               </div>
               <div className='row'>
                 <a
-                  href='#'
+                  href='#contact-us'
                   onClick={this.closeModal}
                   className='text-decoration-none text-reset w-auto'>Contact Us</a>
               </div>
@@ -84,7 +84,7 @@ export default class Burger extends React.Component {
               </div>
               <div className='row'>
                 <a
-                  href='#'
+                  href='#partners'
                   onClick={this.closeModal}
                   className='text-decoration-none text-reset w-auto'>Partners</a>
               </div>

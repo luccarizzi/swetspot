@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutUs() {
   return (
-    <div className='container-xxl py-4'>
+    <div id='about-us' className='container-xxl py-4'>
       <div className='row'>
         <div className='col-12 text-center'>
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'>About Us</h1>

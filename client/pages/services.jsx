@@ -5,7 +5,7 @@ import cardImage3 from '../../server/public/src/card-3.jpg';
 
 function Services() {
   return (
-    <div className='container-xxl py-2'>
+    <div id='services' className='container-xxl py-2'>
       <div className='row'>
         <div className='col text-center'>
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'>Services</h1>
@@ -13,7 +13,7 @@ function Services() {
       </div>
       <div className='row justify-content-center justify-content-xl-evenly f-style-confortaa'>
         <div className='col-12 col-md-6 my-2 mw-400'>
-          <div className='card'>
+          <div className='card position-static'>
             <img
               className='card-img-top card-image'
               src={cardImage1}
@@ -28,7 +28,7 @@ function Services() {
           </div>
         </div>
         <div className='col-12 col-md-6 my-2 mw-400'>
-          <div className='card'>
+          <div className='card position-static'>
             <img
               className='card-img-top card-image'
               src={cardImage2}
@@ -43,7 +43,7 @@ function Services() {
           </div>
         </div>
         <div className='col-12 my-2 mw-400'>
-          <div className='card'>
+          <div className='card position-static'>
             <img
               className='card-img-top card-image'
               src={cardImage3}

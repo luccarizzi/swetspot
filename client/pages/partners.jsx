@@ -5,7 +5,7 @@ import Partner3 from '../../server/public/src/partner-3.jpg';
 
 function Partners() {
   return (
-    <div className='container-xxl py-2'>
+    <div id='partners' className='container-xxl py-2'>
       <div className='row'>
         <div className='col-12 text-center'>
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'> Swēt Partners</h1>

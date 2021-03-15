@@ -4,16 +4,16 @@ function Nav() {
   return (
     <ul className='nav f-style-teko f-size-nav f-letter-spacing-1 red-1'>
       <li className='nav-item'>
-        <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Services</a>
+        <a href='#services' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Services</a>
       </li>
       <li className='nav-item'>
-        <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Blog</a>
+        <a href='#blog' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Blog</a>
       </li>
       <li className='nav-item'>
-        <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>About Us</a>
+        <a href='#about-us' className='nav-link active px-2 px-lg-4 py-1 text-reset'>About Us</a>
       </li>
       <li className='nav-item'>
-        <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Contact Us</a>
+        <a href='#contact-us' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Contact Us</a>
       </li>
       <li className='nav-item'>
         <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer' className='nav-link active px-2 px-lg-4 py-1 text-reset'>CRM</a>
@@ -22,7 +22,7 @@ function Nav() {
         <a target='_blank' href='https://www.taskloan.com/' rel='noreferrer' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Leading Software</a>
       </li>
       <li className='nav-item'>
-        <a href='#' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Partners</a>
+        <a href='#partners' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Partners</a>
       </li>
     </ul>
   );

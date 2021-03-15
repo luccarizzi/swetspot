@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactUs() {
   return (
-    <div className='container-fluid bg-red text-white py-4'>
+    <div id='contact-us' className='container-fluid bg-red text-white py-4'>
       <div className='row justify-content-center'>
         <div className='col-12 text-center'>
           <h1 className='f-style-kanit display-1 my-4 text-shadow'>Social</h1>

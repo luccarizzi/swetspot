@@ -10,7 +10,7 @@ function Banner() {
             We put the <span className='f-style-lobster f-letter-spacing-1 green-1'>Cherry</span> on top of tech!
           </p>
           <div className='my-4'>
-            <a href='#' className='f-style-confortaa text-white text-decoration-none h3'>
+            <a href='#contact-us' className='f-style-confortaa text-white text-decoration-none h3'>
               <div className='button b-white'>
                 Get Quote
               </div>
