@@ -3,9 +3,11 @@ import React from 'react';
 function Footer() {
   return (
     <div className='container-fluid bg-red text-white py-4'>
-      <div className='row justify-content-center'>
+      <div className='row pb-5'>
         <div className='col-12 text-center'>
-          <p>Copyright © 2021 swetSpot - All Rights Reserved.</p>
+          <p className='f-style-confortaa'>
+            Copyright &copy; 2021 swetSpot - All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
