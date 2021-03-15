@@ -10,29 +10,29 @@ function Partners() {
         <div className='col-12 text-center'>
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'> Swēt Partners</h1>
         </div>
-        <div className='col-12 f-style-confortaa'>
-          <h2>Veteran-Owned</h2>
-          <a target='_blank' href='http://www.talarai.com/' rel='noreferrer' >
+        <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
+          <h3>Veteran-Owned</h3>
+          <a target='_blank' href='http://www.talarai.com/' rel='noreferrer'>
             <img
-              className=''
+              className='img-fluid'
               src={Partner1}
               alt=''></img>
           </a>
         </div>
-        <div className='col-12 f-style-confortaa'>
-          <h2></h2>
-          <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer' >
+        <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
+          <h3>CRM</h3>
+          <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer'>
             <img
-              className=''
+              className='img-fluid'
               src={Partner2}
               alt=''></img>
           </a>
         </div>
-        <div className='col-12 f-style-confortaa'>
-          <h2></h2>
-          <a target='_blank' href='http://www.valuelabs.com/' rel='noreferrer' >
+        <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
+          <h3>Business Intelligence</h3>
+          <a target='_blank' href='http://www.valuelabs.com/' rel='noreferrer'>
             <img
-              className=''
+              className='img-fluid'
               src={Partner3}
               alt=''></img>
           </a>
