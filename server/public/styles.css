@@ -70,7 +70,7 @@ textarea::placeholder {
 
 /* HTML Scrolling */
 html {
-  scroll-padding-top: 4rem;
+  scroll-padding-top: 3.5rem;
 }
 
 @media screen and (min-width: 470px) {
@@ -98,7 +98,7 @@ html {
 
   @media screen and (min-width: 1200px) {
     html {
-      scroll-padding-top: 6rem;
+      scroll-padding-top: 5rem;
     }
   }
 }

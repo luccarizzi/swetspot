@@ -11,7 +11,7 @@ function Partners() {
           <h1 className='f-style-kanit display-1 my-4 red-2 text-shadow'> Swēt Partners</h1>
         </div>
         <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
-          <h3>Veteran-Owned</h3>
+          <h3>Veteran-Owned:</h3>
           <a target='_blank' href='http://www.talarai.com/' rel='noreferrer'>
             <img
               className='img-fluid'
@@ -20,7 +20,7 @@ function Partners() {
           </a>
         </div>
         <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
-          <h3>CRM</h3>
+          <h3>CRM:</h3>
           <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer'>
             <img
               className='img-fluid'
@@ -29,7 +29,7 @@ function Partners() {
           </a>
         </div>
         <div className='col-12 col-md-4 f-style-confortaa text-center my-4'>
-          <h3>Business Intelligence</h3>
+          <h3>Business Intelligence:</h3>
           <a target='_blank' href='http://www.valuelabs.com/' rel='noreferrer'>
             <img
               className='img-fluid'
