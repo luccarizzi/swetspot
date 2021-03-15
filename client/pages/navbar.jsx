@@ -6,7 +6,7 @@ import Nav from '../components/nav';
 
 function Navbar() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid mb-1'>
       <div className='row'>
         <div className='col-3 col-md-2 col-lg-1 p-0'>
           <a href='#'>

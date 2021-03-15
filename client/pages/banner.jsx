@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner() {
   return (
-    <div className='container-fluid bg-red text-white py-4 my-1'>
+    <div className='container-fluid bg-red text-white py-4'>
       <div className='row'>
         <div className='col text-center'>
           <h1 className='f-style-kanit display-1 my-4 text-shadow'>Professional Services</h1>
