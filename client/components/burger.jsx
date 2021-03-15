@@ -34,7 +34,7 @@ export default class Burger extends React.Component {
     let navModal;
     if (modal) {
       navModal =
-        <div className='position-absolute top-0 end-0 w-100 vh-100 bg-dark opacity-9 slide'>
+        <div className='position-fixed top-0 end-0 w-100 vh-100 bg-dark opacity-9 slide'>
           <div className='container-fluid text-white'>
             <div className='row py-4'>
               <div onClick={this.closeModal} className='w-auto'>
