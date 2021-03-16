@@ -1,5 +1,4 @@
 import React from 'react';
-import BlogPage from './blog-page';
 
 function Blog() {
   return (
@@ -17,7 +16,6 @@ function Blog() {
             </div>
           </a>
         </div>
-        {/* <BlogPage /> */}
       </div>
     </div>
   );
