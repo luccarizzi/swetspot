@@ -4,12 +4,12 @@
   opacity: 0.9;
 }
 
-.slide {
+.slide-in-rl {
   animation-duration: 0.5s;
-  animation-name: slidein;
+  animation-name: slide-in-lr;
 }
 
-@keyframes slidein {
+@keyframes slide-in-lr {
   from {
     transform: translate(100%);
   }
