@@ -2,6 +2,7 @@ import React from 'react';
 import cardImage1 from '../../server/public/src/card-1.jpg';
 import cardImage2 from '../../server/public/src/card-2.jpg';
 import cardImage3 from '../../server/public/src/card-3.jpg';
+import Dropdown from '../components/dropdown';
 
 function Services() {
   return (
@@ -58,14 +59,8 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className='row text-center'>
-        <div className='my-lg-4'>
-          <a href='#' className='f-style-confortaa red-2 text-decoration-none h3'>
-            <div className='button b-red'>
-              More Services
-            </div>
-          </a>
-        </div>
+      <div className='row mt-2'>
+        <Dropdown />
       </div>
     </div>
   );
