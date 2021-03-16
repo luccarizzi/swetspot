@@ -10,7 +10,10 @@ export default class BlogPage extends React.Component {
 
   render() {
     return (
-
+      <>
+        <Navbar />
+        <Footer />
+      </>
     )
   }
 }
