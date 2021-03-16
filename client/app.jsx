@@ -1,5 +1,7 @@
 import React from 'react';
+import Navbar from './pages/navbar';
 import Home from './pages/home';
+import Footer from './pages/footer';
 import BlogPage from './pages/blog-page';
 import parseRoute from './lib/parse-route';
 
@@ -11,7 +13,7 @@ export default class App extends React.Component {
     };
   }
 
-  componentDidCatch() {
+  componentDidMount() {
     window.addEventListener('hashchange', event => {
       const newRoute = parseRoute(window.location.hash);
       this.setState({
@@ -20,9 +22,22 @@ export default class App extends React.Component {
     });
   }
 
+  renderPage() {
+    const { route } = this.state;
+    if (route.path.startsWith('blog-page')) {
+      return <BlogPage />
+    } else {
+      return <Home />
+    }
+  }
+
   render() {
     return (
-      <Home />
+      <>
+        <Navbar />
+        { this.renderPage() }
+        <Footer />
+      </>
     );
   }
 }
