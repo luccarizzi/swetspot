@@ -27,6 +27,10 @@ app.get('/api/blog-page', (req, res, next) => {
     .catch(err => next(err));
 })
 
+app.get('/api/blog-page/post/:postId', (req, res, next) => {
+  res.send(req.params.postId)
+})
+
 app.listen(process.env.PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`express server listening on port ${process.env.PORT}`);
