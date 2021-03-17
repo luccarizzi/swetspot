@@ -7,6 +7,7 @@ export default class BlogPage extends React.Component {
     this.state = {
       data: ''
     };
+    this.renderPostPreview = this.renderPostPreview.bind(this);
   }
 
   componentDidMount() {
@@ -17,8 +18,28 @@ export default class BlogPage extends React.Component {
       }));
   }
 
+  renderPostPreview() {
+    const { data } = this.state;
+    if (data) {
+      return (
+        <>
+          {
+            data.map((data, index) => {
+              return (
+                <PostPreview key={index} data={data}/>
+              );
+            })
+          }
+        </>
+      );
+    } else {
+      return (
+        <div className="loader">Loading...</div>
+      );
+    }
+  }
+
   render() {
-    console.log(this.state)
     return (
       <div className='container-fluid bg-red text-white py-4'>
         <div className='row'>
@@ -27,7 +48,7 @@ export default class BlogPage extends React.Component {
           </div>
         </div>
         <div className='container-md'>
-          <PostPreview />
+          { this.renderPostPreview() }
         </div>
       </div>
     );

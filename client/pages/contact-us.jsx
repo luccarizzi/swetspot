@@ -8,7 +8,7 @@ function ContactUs() {
           <h1 className='f-style-kanit display-1 my-4 text-shadow'>Social</h1>
         </div>
         <div className='col-12 text-center'>
-          <a href=''>
+          <a target='_blank' href='https://www.facebook.com/tasksuite/' rel='noreferrer'>
             <i className='fab fa-facebook display-2 text-white'></i>
           </a>
         </div>

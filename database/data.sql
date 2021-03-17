@@ -1,31 +1,31 @@
 insert into "posts"         ( "title", "date", "image", "preview", "author")
 values                      ( 'When Good Employees Leave Bad',
                               'August 6, 2020',
-                              'imageUrl',
+                              'src/posts/post1.jpg',
                               'The rise and fall of a good employee can be tracked pretty easily. Why do great employees leave? They took a few too many hits for the team. Yes, it is that simple, but addressing the problem is not. In this 3 part series...',
                               'Marvina Case, TaskSuite'
                             ),
                             ( 'Waterfall Methodology',
                               'August 4, 2020',
-                              'imageUrl',
+                              'src/posts/post2.jpg',
                               'The Waterfall methodology is clean cut. There are established stages to the method that allows the project to move from step to step in a timely fashion, with minimal hiccups.',
                               'Marvina Case, TaskSuite'
                             ),
                             ( 'The End of the Beginning of CRM',
                               'July 31, 2020',
-                              'imageUrl',
+                              'src/posts/post3.jpg',
                               'The way we do business has not changed, but it has increased the funnel to the channel that many of us already use. As long as there are sales to be made, services to be deployed, help desk and customer support...',
                               'Marvina Case, TaskSuite'
                             ),
                             ( 'A Tale of Two CRM''s',
                               'July 29, 2020',
-                              'imageUrl',
+                              'src/posts/post4.jpg',
                               'It was the best of CRM''s; it was the worst of CRM''s, it was the age of technology, it was the age of zoom meetings, it was the epoch of pandemic, it was the epoch of minimalization, it was the season of Sun...',
                               'Marvina Case, TaskSuite'
                             ),
                             ( 'Building a Business From the Start',
                               'July 29, 2020',
-                              'imageUrl',
+                              'src/posts/post5.jpg',
                               'Building a successful business from the start is not an easy task. Still, without the right customer relationship management (CRM) software at the core, productive interactions with all of your current and future customers...',
                               'Marvina Case, TaskSuite'
                             );
