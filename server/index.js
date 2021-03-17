@@ -19,7 +19,7 @@ app.use(staticMiddleware);
 
 app.get('/api/blog-page', (req, res, next) => {
   const sql = `
-    select "postId", "title", "date", "image", "preview", "author"
+    select "postId", "title", "date", "image", "preview"
     from "posts"
   `
   db.query(sql)

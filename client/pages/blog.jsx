@@ -5,7 +5,7 @@ function Blog() {
     <div id='blog' className='container-fluid bg-red text-white py-4'>
       <div className='row'>
         <div className='col text-center'>
-          <h1 className='f-style-kanit display-1 my-4 text-shadow'>Blog</h1>
+          <h1 className='f-style-kanit display-1 my-4 text-shadow'>Tech Cherry</h1>
         </div>
       </div>
       <div className='row text-center'>
