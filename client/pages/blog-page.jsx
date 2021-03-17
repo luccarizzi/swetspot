@@ -1,11 +1,12 @@
 import React from 'react';
+import PostPreview from '../components/post-preview';
 
 export default class BlogPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: ''
-    }
+    };
   }
 
   componentDidMount() {
@@ -25,9 +26,9 @@ export default class BlogPage extends React.Component {
           </div>
         </div>
         <div className='container-md'>
-
+          <PostPreview />
         </div>
       </div>
-    )
+    );
   }
 }
