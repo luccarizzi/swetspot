@@ -6,6 +6,12 @@ export default class BlogPage extends React.Component {
 
   }
 
+  componentDidMount() {
+    fetch('/api/blog-page')
+      .then(res => res.json())
+      .then(data => console.log(data));
+  }
+
   render() {
     return (
       <>
