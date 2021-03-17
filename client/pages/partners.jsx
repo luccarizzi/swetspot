@@ -1,7 +1,4 @@
 import React from 'react';
-import Partner1 from '../../server/public/src/partner-1.jpg';
-import Partner2 from '../../server/public/src/partner-2.jpg';
-import Partner3 from '../../server/public/src/partner-3.jpg';
 
 function Partners() {
   return (
@@ -15,7 +12,7 @@ function Partners() {
           <a target='_blank' href='http://www.talarai.com/' rel='noreferrer'>
             <img
               className='img-fluid'
-              src={Partner1}
+              src='src/partners/partner1.jpg'
               alt=''></img>
           </a>
         </div>
@@ -24,7 +21,7 @@ function Partners() {
           <a target='_blank' href='https://www.tasksuite.com/' rel='noreferrer'>
             <img
               className='img-fluid'
-              src={Partner2}
+              src='src/partners/partner2.jpg'
               alt=''></img>
           </a>
         </div>
@@ -33,7 +30,7 @@ function Partners() {
           <a target='_blank' href='http://www.valuelabs.com/' rel='noreferrer'>
             <img
               className='img-fluid'
-              src={Partner3}
+              src='src/partners/partner3.jpg'
               alt=''></img>
           </a>
         </div>

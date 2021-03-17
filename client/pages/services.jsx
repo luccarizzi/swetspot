@@ -1,7 +1,4 @@
 import React from 'react';
-import cardImage1 from '../../server/public/src/card-1.jpg';
-import cardImage2 from '../../server/public/src/card-2.jpg';
-import cardImage3 from '../../server/public/src/card-3.jpg';
 import Dropdown from '../components/dropdown';
 
 function Services() {
@@ -17,8 +14,8 @@ function Services() {
           <div className='card position-static'>
             <img
               className='card-img-top card-image'
-              src={cardImage1}
-              alt=''></img>
+              src='src/services/service1.jpg'
+              alt='Service image 1.'></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>IT Support</h4>
               <p className='card-text text-justify'>
@@ -32,8 +29,8 @@ function Services() {
           <div className='card position-static'>
             <img
               className='card-img-top card-image'
-              src={cardImage2}
-              alt=''></img>
+              src='src/services/service2.jpg'
+              alt='Service image 2.'></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>Network Support & Maintenance</h4>
               <p className='card-text text-justify'>
@@ -47,8 +44,8 @@ function Services() {
           <div className='card position-static'>
             <img
               className='card-img-top card-image'
-              src={cardImage3}
-              alt=''></img>
+              src='src/services/service3.jpg'
+              alt='Service image 3.'></img>
             <div className='card-body'>
               <h4 className='card-title f-style-kanit'>Cloud Services & Data Management</h4>
               <p className='card-text text-justify'>
