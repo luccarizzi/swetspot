@@ -3,6 +3,7 @@ import Navbar from './pages/navbar';
 import Home from './pages/home';
 import Footer from './pages/footer';
 import BlogPage from './pages/blog-page';
+import Post from './pages/post';
 import parseRoute from './lib/parse-route';
 
 export default class App extends React.Component {
@@ -24,10 +25,12 @@ export default class App extends React.Component {
 
   renderPage() {
     const { route } = this.state;
-    if (route.path.startsWith('blog-page')) {
-      return <BlogPage />
+    if (route.path.startsWith('blog-page/post')) {
+      return <Post />;
+    } else if (route.path.startsWith('blog-page')) {
+      return <BlogPage />;
     } else {
-      return <Home />
+      return <Home />;
     }
   }
 
