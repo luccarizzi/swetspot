@@ -34,7 +34,7 @@ insert into "paragraphs"    ("text")
 values                      ('The rise and fall of a good employee can be tracked pretty easily. Why do great employees leave? They took a few too many hits for the team. Yes, it is that simple, but addressing the problem is not. In this 3 part series, we will discuss different approaches to retain top talent.'), --1
                             ('I''m not saying HR does not do their job, as that is not the case. The problem lies deeper within the organization overall and how companies view/value their non-sales employees and the solutions they have implemented which can make their jobs satisfying or tedious as the very definition of Dante''s Inferno on earth!. Please note, the "players" in this "game" are not all salespeople.'), --2
                             ('So you are a sales-centric organization, and that is great. But what does that mean for operations, accounting, development, etc.? In today''s market, you must bring something new to the table and incentivize all top employees to stay.'), --3
-                            ('7 Questions to Answer to Retain Top Talent'), --4
+                            ('7 Questions to Answer to Retain Top Talent:'), --4
                             ('1. How do you motivate your non-sales people?'), --5
                             ('2. How do you track the progress of those motivational efforts?'), --6
                             ('3. How often do you incent or give merit pay and perks to non-sales employees?'), --7
@@ -79,16 +79,15 @@ values                      ('The rise and fall of a good employee can be tracke
                             ('Feature Rich. - Contact/Deal management, task automation, and reporting.'), --46
                             ('Amazing Support. - Phone, email, and chat support.'), --47
                             ('Cost-Efficient Ownership - The system should pay for itself in savings. Ease of use. - Adoption should not be painful, and it should Integrate with other business software such as eCommerce, telephony, email, or marketing platforms natively.'), --48
-                            ('Best Products: Best Feature'), --49
+                            ('Best Products: Best Feature:'), --49
                             ('TASKSUITE for all-in-one enterprise-level performance'), --50
                             ('Zoho CRM for scaling your business'), --51
                             ('Agile CRM for marketing needs'), --52
                             ('Freshsales for ease of use'), --53
                             ('HubSpot CRM for a free option'), --54
-                            ('HubSpot CRM for a free option'), --55
-                            ('Creatio for automating sales processes'), --56
-                            ('Bitrix24 for an inexpensive option'), --57
-                            ('Streak for managing from a Gmail inbox'); --58
+                            ('Creatio for automating sales processes'), --55
+                            ('Bitrix24 for an inexpensive option'), --56
+                            ('Streak for managing from a Gmail inbox'); --57
 
 insert into "postParagraph" ("postId", "paragraphId")
 values                      (1, 1),
@@ -147,5 +146,4 @@ values                      (1, 1),
                             (5, 54),
                             (5, 55),
                             (5, 56),
-                            (5, 57),
-                            (5, 58);
+                            (5, 57);

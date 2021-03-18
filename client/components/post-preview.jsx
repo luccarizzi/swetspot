@@ -2,7 +2,6 @@ import React from 'react';
 
 function PostPreview(props) {
   const { data } = props;
-
   return (
     <a href={`#blog-page/${data.postId}`} className='text-decoration-none text-white'>
       <div className='row justify-content-center py-3'>
