@@ -1,11 +1,27 @@
 import React from 'react';
 
-function Post() {
-  return (
-    <div>
-      test
-    </div>
-  );
-}
+export default class Post extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: ''
+    };
+  }
 
-export default Post;
+  componentDidMount() {
+    const { path } = this.props.route;
+    fetch(`/api/${path}`)
+      .then(res => res.json())
+      .then(data => this.setState({
+        data
+      }));
+  }
+
+  render() {
+    return (
+      <div>
+        test
+      </div>
+    );
+  }
+}

@@ -4,7 +4,7 @@ function PostPreview(props) {
   const { data } = props;
 
   return (
-    <a href={`#blog-page/post/${data.postId}`} className='text-decoration-none text-white'>
+    <a href={`#blog-page/${data.postId}`} className='text-decoration-none text-white'>
       <div className='row justify-content-center py-3'>
         <div className='col-10 col-lg-4 col-xl-4 text-center align-self-center py-2'>
           <img

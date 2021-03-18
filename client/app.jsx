@@ -25,8 +25,8 @@ export default class App extends React.Component {
 
   renderPage() {
     const { route } = this.state;
-    if (route.path.startsWith('blog-page/post')) {
-      return <Post />;
+    if (route.path.startsWith('blog-page/')) {
+      return <Post route={route}/>;
     } else if (route.path.startsWith('blog-page')) {
       return <BlogPage />;
     } else {
