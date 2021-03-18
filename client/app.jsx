@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './pages/navbar';
-import Home from './pages/home';
-import Footer from './pages/footer';
+import Navbar from './components/navbar';
+import MainPage from './pages/main-page';
+import Footer from './components/footer';
 import BlogPage from './pages/blog-page';
-import Post from './pages/post';
+import PostPage from './pages/post-page';
 import parseRoute from './lib/parse-route';
 
 export default class App extends React.Component {
@@ -26,11 +26,11 @@ export default class App extends React.Component {
   renderPage() {
     const { route } = this.state;
     if (route.path.startsWith('blog-page/')) {
-      return <Post route={route}/>;
+      return <PostPage route={route}/>;
     } else if (route.path.startsWith('blog-page')) {
       return <BlogPage />;
     } else {
-      return <Home />;
+      return <MainPage />;
     }
   }
 

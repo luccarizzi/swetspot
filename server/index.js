@@ -17,6 +17,17 @@ const jsonMiddleware = express.json();
 app.use(jsonMiddleware);
 app.use(staticMiddleware);
 
+app.get('/api/blog', (req, res, next) => {
+  const sql = `
+    select "postId", "title", "date", "image"
+    from "posts"
+    limit 3
+  `;
+  db.query(sql)
+    .then(result => res.json(result.rows))
+    .catch(err => next(err));
+});
+
 app.get('/api/blog-page', (req, res, next) => {
   const sql = `
     select "postId", "title", "date", "image", "preview"
