@@ -1,4 +1,5 @@
 import React from 'react';
+import ReturnBlogPage from '../components/return-blog-page';
 
 export default class Post extends React.Component {
   constructor(props) {
@@ -25,6 +26,7 @@ export default class Post extends React.Component {
       const paragraph = data.paragraph;
       return (
         <>
+          <ReturnBlogPage />
           <div className='row justify-content-center'>
             <div className='col-12 col-md-8 col-lg-6 my-1'>
               <img
@@ -51,6 +53,7 @@ export default class Post extends React.Component {
               </div>
             </div>
           </div>
+          <ReturnBlogPage />
         </>
       );
     } else {
