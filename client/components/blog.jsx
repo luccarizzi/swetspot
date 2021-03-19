@@ -21,11 +21,11 @@ export default class Blog extends React.Component {
     const { data } = this.state;
     if (data) {
       return (
-
         data.map(data => {
           return (
             <div key={data.postId} className='col-12 col-md-6 my-2 mw-400'>
-              <div className='card'>
+              <a href={`#blog-page/${data.postId}`} className='text-decoration-none'>
+              <div className='card card-hover'>
                 <img
                   className='card-img-top w-100 card-image'
                   src={data.image}
@@ -33,9 +33,9 @@ export default class Blog extends React.Component {
                 <div className='card-body text-body f-style-confortaa text-center'>
                   <p>{data.date}</p>
                   <h4 className='card-title h-60'>{data.title}</h4>
-                  <a href={`#blog-page/${data.postId}`}>See Post</a>
                 </div>
               </div>
+              </a>
             </div>
           );
         })

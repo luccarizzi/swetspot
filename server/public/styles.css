@@ -36,8 +36,34 @@
   border: 1px solid #fff;
 }
 
+.b-white:hover,
+.card-hover:hover {
+  box-shadow: 1px 1px 5px white, -1px -1px 5px white;
+}
+
 .b-red {
   border: 1px solid #b4001b;
+}
+
+.b-red:hover {
+  box-shadow: 1px 1px 5px #b4001b, -1px -1px 5px #b4001b;
+}
+
+.nav-link,
+.post-link {
+  border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #b4001b;
+}
+
+.post-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.text-hover:hover {
+  font-weight: bold;
 }
 
 /* Card Image */
