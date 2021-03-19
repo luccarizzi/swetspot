@@ -4,7 +4,7 @@ function Nav() {
   return (
     <ul className='nav f-style-teko f-size-nav f-letter-spacing-1 red-1'>
       <li className='nav-item'>
-        <a href='#services' onClick={() => } className='nav-link active px-2 px-lg-4 py-1 text-reset'>Services</a>
+        <a href='#services' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Services</a>
       </li>
       <li className='nav-item'>
         <a href='#blog' className='nav-link active px-2 px-lg-4 py-1 text-reset'>Blog</a>

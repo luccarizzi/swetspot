@@ -20,10 +20,6 @@ export default class App extends React.Component {
       this.setState({
         route: newRoute
       });
-      if (!this.state.route.path.startsWith('blog-page')) {
-        let section = document.getElementById(this.state.route.path);
-        section.scrollIntoView()
-      }
     });
   }
 
@@ -39,7 +35,6 @@ export default class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.route.path)
     return (
       <>
         <Navbar />
